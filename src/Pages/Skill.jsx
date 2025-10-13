@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 const Skill = () => {
   return (
-    <section className="py-16  bg-gray-500 text-white">
+    <section className="py-16  bg-gray-800 text-white">
       <h1 className="text-4xl md:text-5xl font-extrabold text-center mb-12">
         <span className="bg-gradient-to-r from-sky-400 via-blue-500 to-green-400 text-transparent bg-clip-text">
           Skills & Tools
@@ -17,8 +17,7 @@ const Skill = () => {
         {Tools.map((data) => (
           <li
             key={data.id}
-            className="group relative bg-white/5 border border-white/10 
-                       rounded-2xl p-6 w-[220px] h-[180px] flex items-center justify-center 
+            className=" clip-hexagon  group relative bg-white/5 p-6 w-[220px] h-[180px] flex items-center justify-center 
                        overflow-hidden backdrop-blur-xl 
                        transition-all duration-700 ease-out 
                        hover:-translate-y-2 hover:bg-white/10"
@@ -34,7 +33,7 @@ const Skill = () => {
  <img
               src={data.img}
               alt={data.title}
-              className="relative z-10 object-contain h-[200px]  transition-transform duration-700 ease-out group-hover:scale-110"
+              className="relative z-10 object-contain h-[200px]   transition-transform duration-700 ease-out group-hover:scale-110"
             />
 </Link>
           </li>

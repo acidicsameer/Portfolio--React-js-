@@ -8,7 +8,7 @@ const Home = () => {
         <div className="relative w-[320px] h-[400px] md:w-1/2 md:h-[550px] flex justify-center items-end">
           <div
             className="absolute bottom-[60px] shadow-2xl w-[80%] md:w-[50%] md:h-[250px]  h-[190px]
-             bg-gradient-to-tr from-black via-gray-800 to-gray-400 
+             bg-gradient-to-tr from-black via-gray-900 
              rounded-[100%_100%_50%_35%_/0%_5%_100%_100%]"
           ></div>
 
@@ -50,16 +50,13 @@ const Home = () => {
           </h2>
 
           <p className="text-white  text-base md:text-lg max-w-xl leading-relaxed">
-            I specialize in full-stack development with a focus on MERN
-            technologies. With several years of experience, I have successfully
-            completed numerous projects and collaborated with many clients to
-            bring their visions to life.
+        I’m a second-semester Computer Engineering student at Tribhuvan University with a strong interest in full-stack web development. I build responsive and user-friendly websites using frontend technologies like HTML, CSS, JavaScript, React.js, and Tailwind-CSS. I'm also learning backend tools such as Node.js and MongoDB. I focus on writing clean code and building smooth, functional user experiences. I'm continually working to improve my skills and enjoy turning creative ideas into real, working web solutions.
           </p>
 
           {/* Download Buttons */}
           <div className="flex gap-4 flex-col sm:flex-row mt-6">
             <Link
-              to="/path/to/resume.pdf"
+              to=""
               download
               className="flex items-center gap-2 px-5 py-3 rounded-2xl 
                bg-gradient-to-r from-blue-600 to-cyan-500 text-white 

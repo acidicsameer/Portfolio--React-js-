@@ -61,5 +61,11 @@
     "title": "Github",
     "img": "/public/images/github.png",
     "description": "NoSQL database for storing JSON-like documents."
+  },
+  {
+    "id":10,
+    "title":"Git",
+    "img":"/public/images/git.png"
+
   }
 ]
