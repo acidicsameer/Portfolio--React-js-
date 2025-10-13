@@ -23,10 +23,10 @@ const Contact = () => {
           publicKey: PUBLIC_KEY,
         }
       );
-      toast.success('🎉 Email sent successfully!', { position: 'top-right' });
+      toast.success('Message sent successfully!', { position: 'top-right' });
     } catch (error) {
-      console.error('Email sending failed:', error);
-      toast.error('❌ Failed to send email.', { position: 'top-right' });
+      console.error('message sending failed:', error);
+      toast.error(' Failed to send message.', { position: 'top-right' });
     }
   };
 
@@ -54,12 +54,12 @@ const Contact = () => {
       <div className='flex sm:flex-row flex-col flex-wrap   w-full   '>
       
 <div className='sm:w-1/2 w-full  sm:p-10 p-3'>
-  <iframe  className='sm:w-[450px] h-[450px] w-full  ' src="https://www.openstreetmap.org/export/embed.html?bbox=83.4100914001465%2C27.526235925505144%2C83.57076644897462%2C27.623619404371826&layer=mapnik" /><br /><small>
+  <iframe  className='sm:w-[450px] h-[450px] w-full  border-2 border-black rounded-2xl shadow-2xl shadow-gray-500 ' src="https://www.openstreetmap.org/export/embed.html?bbox=83.4100914001465%2C27.526235925505144%2C83.57076644897462%2C27.623619404371826&layer=mapnik" /><br /><small>
   <a href="https://www.openstreetmap.org/?#map=13/27.57494/83.49043">View Larger Map</a></small>
 </div>
       
       <div className="sm:w-1/2 w-full p-5">
-        <h2 className="text-2xl font-bold text-center">Send Us A Message</h2>
+        <h2 className="text-2xl font-bold text-center sm:w-[70%]">Send Us A Message</h2>
         <Formik
           initialValues={{
             name: '',
@@ -88,7 +88,7 @@ const Contact = () => {
                   name="name"
                   value={values.name}
                   onChange={handleChange}
-                  className="w-full mt-2 p-3 border rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-green-500 transition"
+                  className="sm:w-[70%] w-full  mt-2 p-3 border rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-green-500 transition"
                 />
                 {errors.name && touched.name && (
                   <p className="text-red-500 text-sm">{errors.name}</p>
@@ -102,7 +102,7 @@ const Contact = () => {
                   name="email"
                   value={values.email}
                   onChange={handleChange}
-                  className="w-full mt-2 p-3 border rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-green-500 transition"
+                  className="sm:w-[70%] w-full mt-2 p-3 border rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-green-500 transition"
                 />
                 {errors.email && touched.email && (
                   <p className="text-red-500 text-sm">{errors.email}</p>
@@ -116,7 +116,7 @@ const Contact = () => {
                   name="number"
                   value={values.number}
                   onChange={handleChange}
-                  className="w-full mt-2 p-3 border rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-green-500 transition"
+                  className="sm:w-[70%] w-full mt-2 p-3 border rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-green-500 transition"
                 />
                 {errors.number && touched.number && (
                   <p className="text-red-500 text-sm">{errors.number}</p>
@@ -127,10 +127,10 @@ const Contact = () => {
                 <label htmlFor="message" className="block text-gray-700 font-bold">Message</label>
                 <textarea
                   name="message"
-                  rows="5"
+                  rows="3"
                   value={values.message}
                   onChange={handleChange}
-                  className="w-full mt-2 p-3 border rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-green-500 transition"
+                  className="sm:w-[70%] w-full mt-2 p-3 border rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-green-500 transition"
                 ></textarea>
                 {errors.message && touched.message && (
                   <p className="text-red-500 text-sm">{errors.message}</p>
@@ -139,7 +139,7 @@ const Contact = () => {
 
               <button
                 type="submit"
-                className="w-full bg-green-700 text-white py-3 rounded-lg shadow-lg hover:bg-green-600 transition-colors mt-4"
+                className="w-full sm:w-[70%] bg-green-700 text-white py-3 rounded-lg shadow-lg hover:bg-green-600 transition-colors mt-4"
               >
                 Send Message
               </button>
