@@ -1,11 +1,10 @@
-import { Button } from "@/components/ui/button";
 import React from "react";
 import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
     <>
-      <div className="flex flex-wrap items-center justify-center w-full  py-10 px-4 md:px-12 bg-white">
+      <div className="flex flex-wrap items-center justify-center w-full  py-10 px-4 md:px-12 bg-white   bg-gradient-to-b from-gray-400 via-gray-950 to-black text-white   ">
         <div className="relative w-[320px] h-[400px] md:w-1/2 md:h-[550px] flex justify-center items-end">
           <div
             className="absolute bottom-[60px] shadow-2xl w-[80%] md:w-[50%] md:h-[250px]  h-[190px]
@@ -13,30 +12,23 @@ const Home = () => {
              rounded-[100%_100%_50%_35%_/0%_5%_100%_100%]"
           ></div>
 
-          {/* Profile Image */}
-          <div className="absolute -top-10 flex justify-center w-full">
+          <div className="absolute -top-5  flex justify-center w-full">
             <img
               src="/images/myphoto.jpg"
               alt="Sameer"
               className="w-[80%] md:w-[50%] h-[300px] md:h-[450px] object-cover rounded-full shadow-[0_15px_45px_rgba(0,0,0,0.35)] border-4 border-white transform transition-transform duration-500 hover:scale-105"
             />
           </div>
-
-          {/* Experience Badge */}
-          <div className="absolute bottom-[-1px] left-1/2 -translate-x-1/2 bg-white px-8  py-7 rounded-full shadow-xl text-center transition-transform duration-500 hover:translate-y-[-5px] hover:scale-105">
+          <div className="absolute bottom-[-1px] left-1/2 -translate-x-1/2 bg-gray-700 px-8  py-7 rounded-full shadow-xl text-center transition-transform duration-500 hover:translate-y-[-5px] hover:scale-105">
             <p className="text-3xl font-bold text-blue-600">3+</p>
-            <p className="text-gray-700 font-medium text-sm">
+            <p className="text-white  font-medium text-sm">
               Years of Experience
             </p>
           </div>
         </div>
 
         <div className="w-full md:w-1/2    text-center md:text-left space-y-4">
-          <p className=" md:text-xl text-2xl font-bold  text-gray-900">
-            Hello, I'm
-          </p>
-
-          <h1 className="text-4xl md:text-6xl font-bold text-gray-900">
+          <h1 className="text-4xl md:text-6xl font-bold ">
             <span
               style={{
                 fontFamily: "'Brush Script MT', cursive",
@@ -52,12 +44,12 @@ const Home = () => {
           {/* Role */}
           <h2 className="text-2xl md:text-3xl font-semibold">
             <span className="text-green-500">M</span>
-            <span className="text-black">E</span>
+            <span className="text-gray-400">E</span>
             <span className="text-sky-500">R</span>
             <span className="text-green-300">N</span>~ Learner
           </h2>
 
-          <p className="text-gray-600 text-base md:text-lg max-w-xl leading-relaxed">
+          <p className="text-white  text-base md:text-lg max-w-xl leading-relaxed">
             I specialize in full-stack development with a focus on MERN
             technologies. With several years of experience, I have successfully
             completed numerous projects and collaborated with many clients to

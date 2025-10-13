@@ -31,22 +31,22 @@ const Contact = () => {
   };
 
   return (
-    <div className="bg-white">
-       <section class="text-center py-12 px-4">
+    <div className="bg-gradient-to-b from-gray-400 via-gray-950 to-black ">
+       <section class="text-center py-12 px-4 ">
         <h2 class="text-2xl font-bold">Get In Touch</h2>
-        <p class="mt-4 text-gray-700 max-w-2xl mx-auto">We are here to help you. Reach out to us via any of the following methods.</p>
+        <p class="mt-4 text-white  max-w-2xl mx-auto">We are here to help you. Reach out to us via any of the following methods.</p>
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 mt-8 animate-fadeIn">
           <div class="p-4 shadow-lg rounded-lg bg-green-100 hover:bg-green-200 transition-colors">
      
-            <h3 class="text-xl font-bold">Call Us</h3>
+            <h3 class="text-xl font-bold cursor-pointer">Call Us</h3>
             <p class="text-gray-700 mt-2">+977 9807409596</p>
           </div>
           <div class="p-4 shadow-lg rounded-lg bg-green-100 hover:bg-green-200 transition-colors">
-            <h3 class="text-xl font-bold">Email Us</h3>
+            <h3 class="text-xl font-bold cursor-pointer">Email Us</h3>
             <p class="text-gray-700 mt-2">acidicsameer008@gmail.com</p>
           </div>
           <div class="p-4 shadow-lg rounded-lg bg-green-100 hover:bg-green-200 transition-colors">
-            <h3 class="text-xl font-bold">Visit Us</h3>
+            <h3 class="text-xl font-bold cursor-pointer">Visit Us</h3>
             <p class="text-gray-700 mt-2">Tilottama-17-Barawaliya</p>
           </div>
         </div>
@@ -58,7 +58,7 @@ const Contact = () => {
   <a href="https://www.openstreetmap.org/?#map=13/27.57494/83.49043">View Larger Map</a></small>
 </div>
       
-      <div className="sm:w-1/2 w-full p-5">
+      <div className="sm:w-1/2 w-full p-5 text-white ">
         <h2 className="text-2xl font-bold text-center sm:w-[70%]">Send Us A Message</h2>
         <Formik
           initialValues={{
@@ -82,7 +82,7 @@ const Contact = () => {
           }) => (
             <form onSubmit={handleSubmit} className="sm:max-w-2xl w-full">
               <div>
-                <label htmlFor="name" className="block text-gray-700 font-bold">Name</label>
+                <label htmlFor="name" className="block text-white  font-bold">Name</label>
                 <input
                   type="text"
                   name="name"
@@ -96,7 +96,7 @@ const Contact = () => {
               </div>
 
               <div>
-                <label htmlFor="email" className="block text-gray-700 font-bold">Email</label>
+                <label htmlFor="email" className="block text-white  font-bold">Email</label>
                 <input
                   type="email"
                   name="email"
@@ -110,7 +110,7 @@ const Contact = () => {
               </div>
 
               <div>
-                <label htmlFor="number" className="block text-gray-700 font-bold">Phone</label>
+                <label htmlFor="number" className="block text-white  font-bold">Phone</label>
                 <input
                   type="tel"
                   name="number"
@@ -124,7 +124,7 @@ const Contact = () => {
               </div>
 
               <div>
-                <label htmlFor="message" className="block text-gray-700 font-bold">Message</label>
+                <label htmlFor="message" className="block text-white  font-bold">Message</label>
                 <textarea
                   name="message"
                   rows="3"

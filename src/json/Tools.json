@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "title": "HTML5",
+    "img": "/public/images/html.png",
+    "description": "Markup language for structuring web pages."
+  },
+  {
+    "id": 2,
+    "title": "CSS3",
+    "img": "/public/images/css.png",
+    "description": "Styling language to design beautiful web pages."
+  },
+  {
+    "id": 3,
+    "title": "JavaScript",
+    "img": "/public/images/js.png",
+    "description": "Programming language to add interactivity to web pages."
+  },
+  {
+    "id": 4,
+    "title": "React.js",
+    "img": "/public/images/reactjs.png",
+    "description": "JavaScript library for building interactive UIs."
+  },
+  {
+    "id": 5,
+    "title": "Tailwind CSS",
+    "img": "/public/images/tailwind.png",
+    "description": "Utility-first CSS framework for rapid UI development."
+  },
+
+  {
+    "id": 6,
+    "title": "Node.js",
+    "img": "/public/images/nodejs.png",
+    "description": "JavaScript runtime for building server-side applications."
+  },
+
+  {
+    "id": 7,
+    "title": "MongoDB",
+    "img": "/public/images/mongodb.png",
+    "description": "NoSQL database for storing JSON-like documents."
+  },
+  {
+    "id": 8,
+    "title": "Vercel",
+    "img": "/public/images/vercel.png",
+    "description": "NoSQL database for storing JSON-like documents."
+  },
+
+  {
+    "id": 9,
+    "title": "Netlify",
+    "img": "/public/images/netlify.png",
+    "description": "NoSQL database for storing JSON-like documents."
+  },
+  {
+    "id": 9,
+    "title": "Github",
+    "img": "/public/images/github.png",
+    "description": "NoSQL database for storing JSON-like documents."
+  }
+]
