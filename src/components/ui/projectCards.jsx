@@ -1,5 +1,5 @@
 import React from "react";
-import Cards from "/src/json/Cards.json"; 
+import Cards from "/src/json/ProjectsCards.json"; 
 import { Link } from "react-router-dom";
 const ProjectCards = () => {
   return (

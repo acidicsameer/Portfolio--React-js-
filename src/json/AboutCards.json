@@ -1,0 +1,60 @@
+[
+  {
+    "id": 1,
+    "title": "Education",
+    "image": "/images/education.png",
+    "description": "My academic journey from school to university.",
+    "lists": [
+      "Tribhuvan University, Nepal — B.E. in Computer Engineering (2023 – Ongoing)",
+      "Rammani Multiple Campus — Science, Computer Group (2021 – 2023)",
+      "Namuna English Boarding School — SEE (2019 – 2021)"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Technical Skills",
+    "image": "/images/skills.png",
+    "description": "A summary of my technical and soft skills.",
+    "lists": [
+  "Languages: C, C++, HTML, CSS, JavaScript, React.js, Python (basic)",
+  "Frameworks/Tools: Shadcn UI, Tailwind CSS, Bootstrap, Git, GitHub, VS Code, Linux, Node.js, Express.js, MongoDB",
+  "Soft Skills: Problem Solving, Creativity, Self-learning, Collaboration"
+]
+
+  },
+  {
+    "id": 3,
+    "title": "Languages",
+    "image": "/images/language.png",
+    "description": "Languages I can speak fluently or professionally.",
+    "lists": [
+      "Nepali – Native",
+      "English – Professional",
+      "Hindi – Professional"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Certificates",
+    "image": "/images/certificate.png",
+    "description": "Relevant certifications I have earned.",
+    "lists": [
+      "Basic computer course by Technology Channel - 3 months",
+      "C programming workshop by ACES - 1 week",
+      "Web development by Digital Gurukul - 3 months"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Interests",
+    "image": "/images/interest.png",
+    "description": "Personal interests and hobbies that keep me motivated.",
+    "lists": [
+      "Reading tech blogs and articles",
+      "Open-source contributions",
+      "Learning new programming languages",
+      "Playing chess and solving puzzles",
+      "Traveling and exploring new cultures"
+    ]
+  }
+]
