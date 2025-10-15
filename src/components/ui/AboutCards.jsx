@@ -28,7 +28,7 @@ const AboutSectionSlick = () => {
   };
 
   return (
-    <section className="flex flex-col md:flex-row w-full min-h-screen bg-gray-800 text-white p-8 gap-8">
+    <section className="flex flex-col md:flex-row w-full min-h-screen bg-gray-800 text-white p-10 md:p-20 gap-8">
       {/* Summary Section */}
       <div className="w-full md:w-1/2 flex flex-col justify-center p-4">
         <h1 className="text-4xl font-bold text-blue-400 mb-6 text-center md:text-left">

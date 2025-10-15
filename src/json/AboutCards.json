@@ -39,9 +39,9 @@
     "image": "/images/certificate.png",
     "description": "Relevant certifications I have earned.",
     "lists": [
-      "Basic computer course by Technology Channel - 3 months",
       "C programming workshop by ACES - 1 week",
-      "Web development by Digital Gurukul - 3 months"
+      "Web development by Digital Gurukul - 3 months",
+      "React js Workshop by Digital pathshala -1 week"
     ]
   },
   {

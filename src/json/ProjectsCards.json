@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "Youtube Clone ",
-    "image": "/public/images/ytclone.jpg",
+    "image": "/images/ytclone.jpg",
     "description": "A functional and responsive clone of YouTube built with ReactJS. Features video thumbnails, channel info.",
     "live":"",
     "github":""
@@ -10,7 +10,7 @@
   {
     "id": 2,
     "title": "NEB GPA Converter",
-    "image": "/public/images/neb.jpg",
+    "image": "/images/neb.jpg",
     "description": "A full-stack MERN e-commerce platform with user authentication, product filtering, and admin dashboard.",
     "live":"",
     "github":""
@@ -18,7 +18,7 @@
   {
     "id": 3,
     "title": " Transportation Mgmt System ",
-    "image": "/public/images/cprogram.png",
+    "image": "/images/cprogram.png",
     "description": "A console-based Transportation Management System built in C. Allows seat reservatio",
     "live":"",
     "github":""
@@ -26,7 +26,7 @@
   {
     "id": 4,
     "title": "Youth IT clone",
-    "image": "/public/images/youthit.png",
+    "image": "/images/youthit.png",
     "description": "A fully responsive clone of the official Hamro Youth IT website, built using modern web technologies.",
     "live":"",
     "github":""
@@ -34,7 +34,7 @@
   {
     "id": 5,
     "title": "Facebook Login Clone",
-    "image": "/public/images/fbclone.jpeg",
+    "image": "/images/fbclone.jpeg",
     "description": "A responsive replica of the official Facebook login page using HTML and CSS. Designed for practice in layout, styling.",
     "live":"",
     "github":""

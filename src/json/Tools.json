@@ -40,32 +40,32 @@
   {
     "id": 7,
     "title": "MongoDB",
-    "img": "/public/images/mongodb.png",
+    "img": "/images/mongodb.png",
     "description": "NoSQL database for storing JSON-like documents."
   },
   {
     "id": 8,
     "title": "Vercel",
-    "img": "/public/images/vercel.png",
+    "img": "/images/vercel.png",
     "description": "NoSQL database for storing JSON-like documents."
   },
 
   {
     "id": 9,
     "title": "Netlify",
-    "img": "/public/images/netlify.png",
+    "img": "/images/netlify.png",
     "description": "NoSQL database for storing JSON-like documents."
   },
   {
     "id": 9,
     "title": "Github",
-    "img": "/public/images/github.png",
+    "img": "/images/github.png",
     "description": "NoSQL database for storing JSON-like documents."
   },
   {
     "id":10,
     "title":"Git",
-    "img":"/public/images/git.png"
+    "img":"/images/git.png"
 
   }
 ]

@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Home = () => {
   return (
     <>
-      <div className="flex flex-wrap items-center justify-center w-full  py-10 px-4 md:px-12 bg-white   bg-gradient-to-b from-gray-400 via-gray-950 to-black text-white   ">
+      <div className="flex flex-wrap items-center justify-center w-full  mt-15 py-10 px-4 md:px-12 bg-white   bg-gradient-to-b from-gray-400 via-gray-950 to-black text-white   ">
         <div className="relative w-[320px] h-[400px] md:w-1/2 md:h-[550px] flex justify-center items-end">
           <div
             className="absolute bottom-[60px] shadow-2xl w-[80%] md:w-[50%] md:h-[250px]  h-[190px]
